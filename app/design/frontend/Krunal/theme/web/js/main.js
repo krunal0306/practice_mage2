@@ -3,11 +3,10 @@ define([
     'uiComponent',
 ],
 function ($, Component) {    
-    $(document).ready(function(){
-        alert('test');
+    $(document).ready(function(){        
         jQuery(".subscribe").on('click',function(e){
             e.preventDefault();
-            alert('test');
+            alert('This is just a Test');
             return false;
          });
 	});
